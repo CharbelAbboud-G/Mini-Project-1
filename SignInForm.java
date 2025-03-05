@@ -63,7 +63,7 @@ public class SignInForm extends Application {
             String password = pwBox.getText();
             if (username.equals("") || password.equals("")) {
                 signedInMsg.setText("Username and password are required!");
-            } else if (!username.equals("jimmy") || !password.equals("12345")) {
+            } else if (!username.equals("admin") || !password.equals("12345")) {
                 signedInMsg.setText("Incorrect username and/or password");
             } else {
                 signedInMsg.setText("");
